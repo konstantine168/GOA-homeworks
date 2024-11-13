@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+}
+img {
+        border: 5px solid black;
+        border-radius: 50px;
+}
+select {
+    
+        border: 5px solid black;
+        border-radius: 50px;
+    background-color: rgb(28, 117, 125);
+}
+button {
+    
+    border: 5px solid black;
+    border-radius: 50px;
+background-color: rgb(23, 200, 216);
+}
