@@ -1,5 +1,5 @@
 # 1)
-def function(print_hellow):
+def function(print_hello):
     print_hello = []
     print_hello.append("გამარჯობა, მეგობრებო!")
     print(print_hello)
