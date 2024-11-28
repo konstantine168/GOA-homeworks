@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 3 big ball's</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: darkslategrey;
+            color: white;
+            font-family: cursive;
+        }
+        .ball-1 {
+            background-color: crimson;
+            height: 200px;
+            width: 200px;
+            border: 2px dashed black;
+            border-radius: 100%;
+        }
+        .ball-2 {
+            background-color: darkcyan;
+            height: 200px;
+            width: 200px;
+            border: 2px dashed black;
+            border-radius: 100%;
+        }
+        .ball-3 {
+            background-color: chartreuse;
+            height: 200px;
+            width: 200px;
+            border: 2px dashed black;
+            border-radius: 100%;
+        }
+        .ball-1:hover {
+            cursor: pointer;
+        }
+        .ball-2:hover {
+            cursor: pointer;
+        }
+        .ball-3:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Balls:
+    </h1>
+    <div onclick="alert('Ball is crimson')" class="ball-1"></div>
+    <div onclick="alert('Ball is darkcyan')" class="ball-2"></div>
+    <div onclick="alert('Ball is chartreuse')" class="ball-3"></div>
+</body>
+</html>
