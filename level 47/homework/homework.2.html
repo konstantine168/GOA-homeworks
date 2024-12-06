@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex.com</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: crimson;
+            color: white;
+        }
+        .flex-target-middle {
+            display: flex;
+        }
+        header {
+            background-color: orangered;
+            width: 100%;
+            text-align: center;
+            height: 100px;
+        }
+        .left-sidebar {
+            background-color: lightblue;
+            width: 33.3333333333333%;
+            height: 500px;
+            text-align: center;
+        }
+        .main-content {
+            background-color: purple;
+            width: 33.3333333333333%;
+            height: 500px;
+            text-align: center;
+        }
+        .right-sidebar {
+            background-color: darkgreen;
+            width: 33.3333333333333%;
+            height: 500px;
+            text-align: center;
+        }
+        footer {
+            background-color: red;
+            width: 100%;
+            height: 10000px;
+            text-align: center;
+        }
+        .border-around-CW {
+            border: 10px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Header</h1></header>
+    <div class="flex-target-middle">
+    <div class="left-sidebar"><h1>Left-Sidebar</h1></div>
+    <div class="main-content"><h1>Main-Content</h1></div>
+    <div class="right-sidebar"><h1>Right-Sidebar</h1></div>
+    </div>
+    <footer><h1>Footer</h1></footer>
+</body>
+</html>
