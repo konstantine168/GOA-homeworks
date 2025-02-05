@@ -1,5 +1,4 @@
 import random # <-- import-ს შეუძლია წამოიღოს წიგნები ბიბლიოთეკიდან :)
-
 mylist = [
     "Luka",
     "Sandro",

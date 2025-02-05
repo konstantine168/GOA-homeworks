@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flags</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: yellowgreen;
+            color: white;
+            font-family: cursive;
+        }
+        /* Flag 1 */
+        .flag-1-line-1 {
+            background-color: orange;
+            height: 500px;
+            width: 33.33333333%;
+        }
+        .flag-1-line-2 {
+            background-color: white;
+            height: 500px;
+            width: 33.33333333%;
+        }
+        .flag-1-line-3 {
+            background-color: green;
+            height: 500px;
+            width: 33.33333333%;
+        }
+        /* Flag 2 */
+        .flag-2-line-1 {
+            background-color: crimson;
+            height: 500px;
+            width: 33.33333333%;
+        }
+        .flag-2-line-2 {
+            background-color: white;
+            height: 500px;
+            width: 33.33333333%;
+        }
+        .flag-2-line-3 {
+            background-color: crimson;
+            height: 500px;
+            width: 33.33333333%;
+        }
+        /* Flag 3 */
+        .flag-3-line-1 {
+            background-color: red;
+            height: 500px;
+            width: 33.33333333%;
+        }
+        .flag-3-line-2 {
+            background-color: white;
+            height: 500px;
+            width: 33.33333333%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .flag-3-line-3 {
+            background-color: red;
+            height: 500px;
+            width: 33.33333333%;
+        }
+        /* Flag 4 */
+        .flag-4-line-1 {
+            background-color: red;
+            height: 500px;
+            width: 100%;
+        }
+        .flag-4-line-2 {
+            background-color: yellow;
+            height: 500px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .flag-4-line-3 {
+            background-color: green;
+            height: 500px;
+            width: 100%;
+        }
+        /* Flag 5 */
+        .flag-5-line-1 {
+            background-color: black;
+            height: 500px;
+            width: 33.33333333%;
+        }
+        .flag-5-line-2 {
+            background-color: red;
+            height: 500px;
+            width: 33.33333333%;
+        }
+        .flag-5-line-3 {
+            background-color: yellow;
+            height: 500px;
+            width: 33.33333333%;
+        }
+        /* Extras */
+        img {
+            height: 500px;
+            width: 500px;
+        }
+        .flex {
+            display: flex;
+        }
+        .block {
+            display: block;
+        }
+        .Georgia {
+            background-color: white;
+            height: 1000px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Flag 1 -->
+    <h1>Flag 1:</h1>
+    <div class="flex">
+    <div class="flag-1-line-1"></div>
+    <div class="flag-1-line-2"></div>
+    <div class="flag-1-line-3"></div>
+    </div>
+    <!-- Flag 2 -->
+    <h1>Flag 2:</h1>
+    <div class="flex">
+    <div class="flag-2-line-1"></div>
+    <div class="flag-2-line-2"></div>
+    <div class="flag-2-line-3"></div>
+    </div>
+    <!-- Flag 3 -->
+    <h1>Flag 3:</h1>
+    <div class="flex">
+    <div class="flag-3-line-1"></div>
+    <div class="flag-3-line-2"><img src="data:image/png;base64,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" alt="Canada"></div>
+    <div class="flag-3-line-3"></div>
+    </div>
+    <!-- Flag 4 -->
+    <h1>Flag 4:</h1>
+    <div class="block">
+    <div class="flag-4-line-1"></div>
+    <div class="flag-4-line-2"><img src="./coat_of_arms_bolivia-removebg-preview.png" alt="Bolivia"></div>
+    <div class="flag-4-line-3"></div>
+    </div>
+    <!-- I Couldn't make the Geo Flag so I made Germany (Level 5) -->
+    <h1>Flag 5:</h1>
+    <div class="flex">
+    <div class="flag-5-line-1"></div>
+    <div class="flag-5-line-2"></div>
+    <div class="flag-5-line-3"></div>
+    </div>
+</body>
+</html>
