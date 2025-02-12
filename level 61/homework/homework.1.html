@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ზღვის კუები</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: linear-gradient(90deg, black,white);
+            color: white;
+            font-family: cursive;
+        }
+        button {
+            background-color: orange;
+            border: 2px solid white;
+            border-radius: 5%;
+            font-family: cursive;
+            color: white;
+            transition: all 2s ease;
+        }
+        button:hover {
+            transform: translateX(20px);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>ზღვის კუების ყიდვა (99.99₾)</h1>
+    <img src="data:image/webp;base64,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" alt="Turtle"><br>
+    <h2>ფერი</h2>
+    <select name="c1" id="c1">
+        <option class="red" value="Red">წითელი</option>
+        <option value="Black">შავი</option>
+        <option value="Green">მწვანე</option>
+    </select>
+    <button onclick="alert('გზაშია!')">ყიდვა</button>
+</body>
+</html>
