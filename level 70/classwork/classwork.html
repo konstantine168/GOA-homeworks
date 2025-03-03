@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS styles</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: linear-gradient(90deg, #6bdfdb, #3356a2);
+            color: white;
+            font-family: cursive;
+        }
+        .box-1 {
+            background-color: #c55de1;
+            display: flex;
+            justify-content: flex-start;
+            border-radius: 5px;
+            height: 50px;
+            width: 500px;
+            margin-bottom: 50px;
+        }
+        .box-rectangle {
+            background-color: #deb66a;
+            height: 50px;
+            width: 100px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .box-2 {
+            background-color: #c55de1;
+            display: flex;
+            justify-content: flex-end;
+            border-radius: 5px;
+            height: 50px;
+            width: 500px;
+            margin-bottom: 50px;
+        }
+        .box-3 {
+            background-color: #c55de1;
+            display: flex;
+            justify-content: center;
+            border-radius: 5px;
+            height: 50px;
+            width: 500px;
+            margin-bottom: 50px;
+        }
+        .box-4 {
+            background-color: #c55de1;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 5px;
+            height: 50px;
+            width: 500px;
+            margin-bottom: 50px;
+        }
+        .box-5 {
+            background-color: #c55de1;
+            display: flex;
+            justify-content: space-evenly;
+            border-radius: 5px;
+            height: 50px;
+            width: 500px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Here are some Random CSS styles:</h1>
+    <!-- Box-1 -->
+    <h2>Flex-start:</h2>
+    <p>Puts all elements at the start (Average)</p>
+    <div class="box-1">
+        <div class="box-rectangle"></div>
+        <div class="box-rectangle"></div>
+        <div class="box-rectangle"></div>
+    </div>
+    <!-- Box-2 -->
+    <h2>Flex-end</h2>
+    <p>Puts all elements at the end (Reverse)</p>
+    <div class="box-2">
+        <div class="box-rectangle"></div>
+        <div class="box-rectangle"></div>
+        <div class="box-rectangle"></div>
+    </div>
+    <!-- Box-3 -->
+    <h2>Center</h2>
+    <p>Puts all elements in the center (Centering)</p>
+    <div class="box-3">
+        <div class="box-rectangle"></div>
+        <div class="box-rectangle"></div>
+        <div class="box-rectangle"></div>
+    </div>
+    <h2>Spce-between</h2>
+    <p>Puts all elements apart (Seperating)</p>
+    <div class="box-4">
+        <div class="box-rectangle"></div>
+        <div class="box-rectangle"></div>
+        <div class="box-rectangle"></div>
+    </div>
+    <h2>Spce-Evenly</h2>
+    <p>Seperates all elements Evenly (Evenly Seperating)</p>
+    <div class="box-5">
+        <div class="box-rectangle"></div>
+        <div class="box-rectangle"></div>
+        <div class="box-rectangle"></div>
+    </div>
+</body>
+</html>
