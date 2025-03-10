@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS styles (Part 3)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: linear-gradient(90deg, #4aa8ce, #ba48e4);
+            color: white;
+            font-family: cursive;
+        }
+        .box {
+            background-color: orange;
+            border-radius: 5px;
+            height: 50px;
+            width: 100px;
+            border: 2px solid white;
+            margin-right: 10px;
+        }
+        .box-medium {
+            background-color: orange;
+            border-radius: 5px;
+            height: 50px;
+            width: 125px;
+            border: 2px solid white;
+            margin-right: 10px; 
+        }
+        .box-big {
+            background-color: orange;
+            background-color: orange;
+            border-radius: 5px;
+            height: 50px;
+            width: 150px;
+            border: 2px solid white;
+            margin-right: 10px;
+        }
+        .align-1 {
+            background-image: linear-gradient(90deg, #e242e2, #63ddae);
+            height: 500px;
+            width: 500px;
+            display: flex;
+            align-content: flex-start;
+            border-radius: 5px;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+        .align-2 {
+            background-image: linear-gradient(90deg, #e242e2, #63ddae);
+            height: 500px;
+            width: 500px;
+            display: flex;
+            align-content: flex-end;
+            border-radius: 5px;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+        .align-3 {
+            background-image: linear-gradient(90deg, #e242e2, #63ddae);
+            height: 500px;
+            width: 500px;
+            display: flex;
+            align-content: center;
+            border-radius: 5px;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+        .align-4 {
+            background-image: linear-gradient(90deg, #e242e2, #63ddae);
+            height: 500px;
+            width: 500px;
+            display: flex;
+            align-content: stretch;
+            border-radius: 5px;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+        .align-5 {
+            background-image: linear-gradient(90deg, #e242e2, #63ddae);
+            height: 500px;
+            width: 500px;
+            display: flex;
+            align-content: space-between;
+            border-radius: 5px;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+        .align-6 {
+            background-image: linear-gradient(90deg, #e242e2, #63ddae);
+            height: 500px;
+            width: 500px;
+            display: flex;
+            align-content: space-around;
+            border-radius: 5px;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Here Are Some CSS styles</h1>
+    <h2>Align-content:</h2>
+    <p>flex-start</p>
+    <div class="align-1">
+        <div class="box-medium"></div>
+        <div class="box-big"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-big"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-medium"></div>
+    </div>
+    <p>flex-end</p>
+    <div class="align-2">
+        <div class="box-medium"></div>
+        <div class="box-big"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-big"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-medium"></div>
+    </div>
+    <p>Center</p>
+    <div class="align-3">
+        <div class="box-medium"></div>
+        <div class="box-big"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-big"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-medium"></div>
+    </div>
+    <p>Stretch</p>
+    <div class="align-4">
+        <div class="box-medium"></div>
+        <div class="box-big"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-big"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-medium"></div>
+    </div>
+    <p>Space-Between</p>
+    <div class="align-5">
+        <div class="box-medium"></div>
+        <div class="box-big"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-big"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-medium"></div>
+    </div>
+    <p>Space-Around</p>
+    <div class="align-6">
+        <div class="box-medium"></div>
+        <div class="box-big"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-big"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box-medium"></div>
+    </div>
+</body>
+</html>
