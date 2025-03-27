@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: hsl(47, 88%, 63%);
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Figtree", sans-serif;
+        }
+        .card {
+            background-color: hsl(0, 0%, 100%);
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px black;
+            width: 500px;
+            height: 500px;
+        }
+        .yellow-button {
+            background-color: hsl(47, 88%, 63%);
+            color: hsl(0, 0%, 7%);
+            border-radius: 5px;
+        }
+        .black-text {
+            color: hsl(0, 0%, 7%);
+            font-size: 500;
+        }
+        .gray-text {
+            color: hsl(0, 0%, 42%);
+            font-size: 950;
+        }
+        .bg-img {
+            border-radius: 5px;
+            width: 500px;
+            height: 200px;
+        }
+        .greg-hooper {
+            display: flex;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img class="bg-img" src="./blog-preview-card-main/assets/images/illustration-article.svg" alt="BG-IMG"><br>
+        <button class="yellow-button">Learning</button>
+        <p class="black-text">Published 21 Dec 2023</p>
+        <h1 class="Black-Text">HTML & CSS foundations</h1>
+        <p class="gray-Text">
+        These languages are the backbone of every
+        website, defining structure, content, and
+        presentation.
+        </p>
+    <div class="greg-hooper">
+        <img src="./blog-preview-card-main/assets/images/image-avatar.webp" alt="Greg Hooper">
+        Greg Hooper
+    </div>
+    </div>
+</body>
+</html>

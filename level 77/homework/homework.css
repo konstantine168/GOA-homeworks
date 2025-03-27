@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: "Figtree-ExtraBold";
+    src: url("../assets/fonts/static/Figtree-ExtraBold.ttf");
+  }
+  @font-face {
+    font-family: "Figtree-Medium";
+    src: url("../assets/fonts/static/Figtree-Medium.ttf");
+  }
+  
+  .font-display {
+    font-family: "Figtree-Medium";
+  }
+  .font-bold {
+    font-family: "Figtree-extraBold";
+  }
+  /* colors txt */
+  
+  .text-yellow {
+    color: hsl(47, 88%, 63%);
+  }
+  .text-white {
+    color: hsl(0, 0%, 100%);
+  }
+  .text-gray-500 {
+    color: hsl(0, 0%, 42%);
+  }
+  .text-gray-950 {
+    color: hsl(0, 0%, 7%);
+  }
+  
+  /* colors bg */
+  
+  .bg-yellow {
+    background: hsl(47, 88%, 63%);
+  }
+  .bg-white {
+    background: hsl(0, 0%, 100%);
+  }
+  .bg-gray-500 {
+    background: hsl(0, 0%, 42%);
+  }
+  .bg-gray-950 {
+    background: hsl(0, 0%, 7%);
+  }
+  
+  /* flexbox */
+  
+  .flex {
+    display: flex;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  .item-center {
+    align-items: center;
+  }
+  
+  /* gap */
+  .gap-sm {
+    gap: 10px;
+  }
+  
+  /* height */
+  
+  .h-screen {
+    height: 100vh;
+  }
+  
+  /* border */
+  .border-1 {
+    border: 1px solid hsl(0, 0%, 7%);
+  }
+  
+  /* border-radius */
+  .rounded-20 {
+    border-radius: 20px;
+  }
+  
+  .rounded-5 {
+    border-radius: 5px;
+  }
+  /* padding */
+  
+  .p-20 {
+    padding: 20px;
+  }
+  .p-10 {
+    padding: 10px;
+  }
+  
+  /* margin */
+  .m-y-20 {
+    margin: 20px 0;
+  }
+  .mt-20 {
+    margin-top: 20px;
+  }
+  /* widths */
+  
+  .w-md {
+    width: 320px;
+  }
+  .w-sm {
+    width: 40px;
+  }
+  
+  /* hover */
+  .hover-text-yellow:hover {
+    color: hsl(47, 88%, 63%);
+  }
+  
+  /* cursors */
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  /* animations */
+  /* transition */
+  .transition-all {
+    transition: all 150ms ease;
+  }
+  
+  /* box-shadow */
+  
+  .shadow-md {
+    box-shadow: 10px 10px;
+  }
