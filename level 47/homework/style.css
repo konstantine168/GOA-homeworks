@@ -1,0 +1,13 @@
+.div {
+    background-color: lightslategray;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
+.div-of-all-divs {
+    display: flex;
+}
+.block {
+    display: block;
+}

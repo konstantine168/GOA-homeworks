@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: black;
+        }
+        .slide-container {
+            max-width: 700px;
+        }
+        .slide-container, img {
+            width: 100%;
+        }
+        .slider-buttons {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .slider-buttons, button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+            color: blue;
+            transition: all 300ms ease;
+        }
+        img {
+            border: 2px solid palegoldenrod;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider-container">
+        <img id="img" src="./download.jfif" alt="YEET"> <!-- Search Up An Image online (save as...) -->
+        <div class="slider-buttons">
+            <button>Left</button>
+            <button>Right</button>
+        </div>  
+    </div>
+    <script>
+        const img = document.getElementById('img');
+        const buttonsArray = document.querySelectorAll(".slider-buttons button")
+        const imgArray = [] // <-- put in the image names here
+        buttonsArray[0].addEventListener("click", function{
+            console.log("left")
+            img.
+        })
+    </script>
+</body>
+</html>

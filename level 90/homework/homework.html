@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+        body {
+            background-color: rgb(165, 220, 173);
+            font-family: sans-serif;
+            display: grid;
+        }
+        header {
+            background-color: red;
+            color: black;
+            width: 1865px;
+            height: 100px;
+        }
+        .line1 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            height: 100px;
+            width: 1845px;
+        }
+        .line2 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            height: 310px;
+            width: 1845px;
+        }
+        .sidebar1 {
+            height: 310px;
+            width: 200px;
+            background-color: lime;
+        }
+        .content1 {
+            height: 310px;
+            width: 1655px;
+            background-color: orange;            
+        }
+        .line3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            height: 310px;
+            width: 1845px;
+        }
+        .content2 {
+            height: 310px;
+            width: 955px;
+            background-color: red;
+        }
+        .content3 {
+            height: 310px;
+            width: 895px;
+            background-color: white;
+        }
+        .sidebar2 {
+            height: 310px;
+            width: 200px;
+            background-color: lime;
+        }
+        footer {
+            background-color: orange;
+            color: black;
+            width: 1865px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="line1">
+    <header><h1>Header</h1></header>
+    </div>
+    <div class="line2">
+    <div class="sidebar1"><h1>Sidebar</h1></div>
+    <div class="content1"><h1>Content1</h1></div>
+    </div>
+    <div class="line3">
+    <div class="sidebar2"></div>
+    <div class="content2"><h1>Content2</h1></div>
+    <div class="content3"><h1>content3</h1></div>
+    </div>
+    <div class="line3">
+        <footer><h1>Footer</h1></footer>
+    </div>
+</body>
+</html

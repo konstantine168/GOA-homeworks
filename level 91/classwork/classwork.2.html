@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallerini Bananini.com</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: skyblue;
+            color: white;
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        const body = document.getElementById("body")
+        const button = document.getElementsByClassName("btn")[0]
+        const span = document.getElementById("counter")
+        console.log(span)
+
+
+        button.addEventListener("click", handleIncrement)
+
+        let count = 0
+
+        function handleIncrement(){
+            console.log("Button clicked")
+            count += 1
+            span.textContent = count
+        }
+
+        function handleIncrementequalzero(){
+            console.log("Button clicked")
+            count == 0
+            span.textContent = count
+        }
+        function changeColorByCount() {
+            if (count < 0) {
+                document.getElementById('counter').style.color = "green"
+            }
+            if (count == 0) {
+                document.getElementById('counter').style.color = "black"
+            }
+        }
+    </script>
+    <button onclick="handleIncrement()">CLICKME</button>
+    <h1 id="counter">0</h1>
+    <!-- HW 1 -->
+    <button onclick="handleIncrementequalzero()"></button>
+    <!-- HW 2 was already done during the classwork. -->
+    <!-- HW 3 -->
+    <button onclick="changeColorByCount()">COLOR CHANGE!</button>
+</body>
+</html>

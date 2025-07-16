@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: var(--white);
+        }
+        .btn{   
+            background-color: var(--black-950);
+            color: var(--white);
+            padding: 10px 20px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover{   
+            background-color: var(--black-900);
+
+        } 
+        :root{
+            --white:   rgb(255, 255, 255);
+            --black-950: rgb(0, 0, 0);
+            --black-900: rgb(27, 27, 27);
+        }
+        .crimson{
+            --white:   rgb(152, 11, 58);
+            --black-950: rgb(255, 255, 255);
+            --black-900: rgb(141, 92, 35);
+        }
+    </style>
+</head>
+
+<body >
+    <button id="Crimsonmode" class="btn">Crimson mode</button>
+    <script>
+        const darkcMode = document.getElementById("Crimsonmode");
+        darkcMode.addEventListener("click", function(){  
+            document.body.classList.toggle("crimson")
+        })
+    </script>
+</body>
+
+</html>

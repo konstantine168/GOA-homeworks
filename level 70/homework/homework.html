@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS styles (Part 2)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: linear-gradient(90deg, #d153b8, #e36a6a);
+            color: white;
+            font-family: cursive;
+        }
+        .box-1 {
+            background-image: linear-gradient(90deg, #ce35d8, #d85353);
+            height: 300px;
+            width: 300px;
+            border-radius: 5px;
+            margin-bottom: 50px;
+        }
+        .bub-1 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-2 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+            margin-left: 170px;
+        }
+        .bub-3 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+            margin-left: 50px;
+        }
+        .box-2 {
+            background-image: linear-gradient(90deg, #ce35d8, #d85353);
+            height: 300px;
+            width: 300px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .bub-4 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-5 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-6 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .box-3 {
+            background-image: linear-gradient(90deg, #ce35d8, #d85353);
+            height: 300px;
+            width: 300px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+        .bub-7 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-8 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-9 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-10 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-11 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-12 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-13 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-14 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .box-4 {
+            background-image: linear-gradient(90deg, #ce35d8, #d85353);
+            height: 300px;
+            width: 400px;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box-5 {
+            background-image: linear-gradient(90deg, #ce35d8, #d85353);
+            height: 300px;
+            width: 400px;
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        .bub-15 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-16 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-17 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-18 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-19 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+            margin-right: 100px;
+        }
+        .bub-20 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-21 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-22 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .box-6 {
+            background-image: linear-gradient(90deg, #ce35d8, #d85353);
+            height: 330px;
+            width: 400px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .bub-23 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-24 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-25 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-26 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-27 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-28 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .box-7 {
+            background-image: linear-gradient(90deg, #ce35d8, #d85353);
+            height: 330px;
+            width: 400px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+        }
+        .box-8 {
+            background-image: linear-gradient(90deg, #ce35d8, #d85353);
+            height: 330px;
+            width: 400px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .box-9 {
+            background-image: linear-gradient(90deg, #ce35d8, #d85353);
+            height: 330px;
+            width: 400px;
+            border-radius: 5px;
+            display: flex;
+            align-items: end;
+        }
+        .box-10 {
+            background-image: linear-gradient(90deg, #ce35d8, #d85353);
+            height: 330px;
+            width: 400px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .bub-29 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-30 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-31 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-32 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-33 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-34 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .box-11 {
+            background-image: linear-gradient(90deg, #ce35d8, #d85353);
+            height: 330px;
+            width: 400px;
+            border-radius: 5px;
+            display: flex;
+        }
+        .bub-35 {
+            background-color: orange;
+            height: 330px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-36 {
+            background-color: orange;
+            height: 330px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-37 {
+            background-color: orange;
+            height: 330px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-38 {
+            height: 330px;
+            width: 100px;
+            border-radius: 5px;
+            background-color: orange;
+        }
+        .bub-39 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-40 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-41 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-42 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-43 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-44 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-45 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-46 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-47 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .bub-48 {
+            background-color: orange;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .box-12 {
+            background-image: linear-gradient(90deg, #ce35d8, #d85353);
+            height: 330px;
+            width: 400px;
+            border-radius: 5px;
+            display: flex;
+            align-items: end;
+        }
+        .box-13 {
+            background-image: linear-gradient(90deg, #ce35d8, #d85353);
+            height: 330px;
+            width: 400px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS styles (Mother's Day Theme):</h1>
+    <h2>Three Friends:</h2>
+    <div class="box-1">
+        <div class="bub-1"></div>
+        <div class="bub-2"></div>
+        <div class="bub-3"></div>
+    </div>
+    <h2>Three Glued Friends:</h2>
+    <div class="box-2">
+        <div class="bub-4"></div>
+        <div class="bub-5"></div>
+        <div class="bub-6"></div>
+    </div>
+    <h2>Columned Buddies</h2>
+    <div class="box-3">
+        <div class="bub-7"></div>
+        <div class="bub-8"></div>
+        <div class="bub-9"></div>
+    </div>
+    <h2>Some Weird Shapes</h2>
+    <div class="box-4">
+        <div class="bub-10"></div>
+        <div class="bub-11"></div>
+        <div class="bub-12"></div>
+        <div class="bub-13"></div>
+        <div class="bub-14"></div>
+    </div>
+    <h2>Weird Shapes Reversed</h2>
+    <div class="box-5">
+        <div class="bub-15"></div>
+        <div class="bub-16"></div>
+        <div class="bub-17"></div>
+        <div class="bub-18"></div>
+        <div class="bub-19"></div>
+    </div>
+    <h2>Right At the end</h2>
+    <div class="box-6">
+        <div class="bub-20"></div>
+        <div class="bub-21"></div>
+        <div class="bub-22"></div>
+    </div>
+    <h2>Centered Buddies</h2>
+    <div class="box-7">
+        <div class="bub-23"></div>
+        <div class="bub-24"></div>
+        <div class="bub-25"></div>
+    </div>
+    <h2>Space Betweeeeeen</h2>
+    <div class="box-8">
+        <div class="bub-26"></div>
+        <div class="bub-27"></div>
+        <div class="bub-28"></div>
+    </div>
+    <h2>Aligning on Horizon</h2>
+    <div class="box-9">
+        <div class="bub-29"></div>
+        <div class="bub-30"></div>
+        <div class="bub-31"></div>
+    </div>
+    <h2>Aligning on</h2>
+    <div class="box-10">
+        <div class="bub-32"></div>
+        <div class="bub-33"></div>
+        <div class="bub-34"></div>
+    </div>
+    <h2>Long Boys</h2>
+    <div class="box-11">
+        <div class="bub-35"></div>
+        <div class="bub-36"></div>
+        <div class="bub-37"></div>
+        <div class="bub-38"></div>
+    </div>
+    <div class="box-12">
+        <div class="bub-39"></div>
+        <div class="bub-40"></div>
+        <div class="bub-41"></div>
+        <div class="bub-42"></div>
+        <div class="bub-43"></div>
+    </div>
+    <div class="box-13">
+        <div class="bub-44"></div>
+        <div class="bub-45"></div>
+        <div class="bub-46"></div>
+        <div class="bub-47"></div>
+        <div class="bub-48"></div>
+    </div>
+</body>
+</html>

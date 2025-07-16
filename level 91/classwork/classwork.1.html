@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleryforreal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: greenyellow;
+            color: white;
+            font-family: cursive;
+        }
+        button {
+            background-color: black;
+            color: white;
+            font-family: cursive;
+            transition: all 300ms ease;
+            border: 2px solid white;
+            border-radius: 5px;
+        }
+        button:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body id="target">
+    <script>
+        function handleChangeBgForGOA() {
+            document.getElementById('target').style.backgroundColor = "green"
+        }
+        function handleChangeBgForMMA() {
+            document.getElementById('target').style.backgroundColor = "red"
+        }
+        function handleChangeBgForHTML() {
+            document.getElementById('target').style.backgroundColor = "orange"
+        }
+        function handleChangeBgForCSS() {
+            document.getElementById('target').style.backgroundColor = "blue"
+        }
+        function handleChangeBgForJS() {
+            document.getElementById('target').style.backgroundColor = "yellow"
+        }
+    </script>
+    <h1>Themes!</h1>
+    <button onclick="handleChangeBgForGOA()" class="GOA">GOA</button>
+    <button onclick="handleChangeBgForMMA()" class="HTML">MMA</button>
+    <button onclick="handleChangeBgForHTML()" class="HTML">HTML</button>
+    <button onclick="handleChangeBgForCSS()" class="CSS">CSS</button>
+    <button onclick="handleChangeBgForJS()" class="JS">JS</button>
+</body>
+</html>

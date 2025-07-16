@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery.com</title>
+    <style>
+.container {
+  display: flex; /* side by side */
+  gap: 20px;
+}
+
+.left-grid {
+  display: grid;
+  grid-template-rows: 100px 100px;
+  width: 100px;
+  background-color: lightblue;
+}
+
+.right-grid {
+  display: grid;
+  grid-template-rows: 100px 100px;
+  width: 300px;
+  background-color: lightgreen;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+  <!-- Left grid -->
+  <div class="left-grid">
+    <div>🟦</div>
+    <div>🟦</div>
+  </div>
+
+  <!-- Right grid -->
+  <div class="right-grid">
+    <div>🟩 Long content</div>
+    <div>🟩 More long content</div>
+  </div>
+</div>
+</body>
+</html>

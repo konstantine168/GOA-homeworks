@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legendary!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: linear-gradient(90deg, aqua, aquamarine);
+            font-family: cursive;
+            color: gray;
+        }
+        .circle1 {
+           transition: all 300ms ease;
+           width: 200px;
+           height: 200px;
+           border-radius: 50%;
+           background-image: linear-gradient(90deg, aqua, blue);
+        }
+        .circle1:active {
+            transform: rotate(30deg);
+        }
+        .circle2 {
+           transition: all 300ms ease;
+           width: 200px;
+           height: 200px;
+           border-top-left-radius: 50%;
+           border-top-right-radius: 50%;
+           background-image: linear-gradient(90deg, red, orange);
+        }
+        .circle2:active {
+            transform: rotate(90deg);
+        }
+        .circle3 {
+           transition: all 300ms ease;
+           border-bottom-right-radius: 50%;
+           border-bottom-left-radius: 50%;
+           width: 200px;
+           height: 200px;
+           background-image: linear-gradient(90deg, aqua, blue);
+        }
+        .circle3:active {
+            transform: rotate(120deg);
+        }
+        .circle4 {
+           transition: all 300ms ease; 
+           width: 200px;
+           height: 200px;
+           background-image: linear-gradient(90deg, aqua, blue);
+        }
+        .circle4:active {
+            transform: rotate(150deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="circle1"></div>
+    <hr>
+    <div class="circle2"></div>
+    <hr>
+    <div class="circle3"></div>
+    <hr>
+    <div class="circle4"></div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(90deg, blue, darkblue, white);
+    color: white;
+    font-family: cursive;
+}
+.triangle { /* ეს სამკუთხედი w3schools-იდან წამოვიღე :) */
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid white;
+    transition: all 2s ease;
+}
+.triangle:active {
+    transform: rotate(360deg);
+}

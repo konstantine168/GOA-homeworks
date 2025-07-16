@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(90deg, rgb(167, 91, 238), rgb(73, 202, 222));
+    color: white;
+    font-family: cursive;
+}
+img {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+button {
+    background-color: pink;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: cursive;
+    transition: all 300ms ease;
+}
+button:hover {
+    cursor: pointer;
+    transform: translateX(20px);
+}

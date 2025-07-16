@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery.com</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: greenyellow;
+            color: white;
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body id="target">
+    <h1>პირველი პასუხი:</h1>
+    <button onclick="alert('გამარჯობა!')">დამაჭირე</button>
+    <h2>მეორე პასუხი</h2>
+    <h2>Catch the Seahorse!</h2>
+    <marquee scrollamount="100" behavior="scroll" direction="left">
+        <img onclick="alert('შენ ზღვის ცხენი დაიჭირე!')" src="data:image/jpeg;base64,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" alt="Seahorse">
+    </marquee>
+    <h2>მესამე პასუხი</h2>
+    <button onclick="document.getElementById('target').style.backgroundColor = 'skyblue'">CLICKME</button>
+    <h2>მეოთხე პასუხი</h2>
+    <script>
+        const body = document.getElementById("body")
+        const button = document.getElementsByClassName("btn")[0]
+        const span = document.getElementById("counter")
+        console.log(span)
+
+
+        button.addEventListener("click", handleIncrement)
+
+        let count = 0
+
+        function handleIncrement(){
+            console.log("Button clicked")
+            count += 1
+            span.textContent = count
+        }
+    </script>
+    <button onclick="handleIncrement()">CLICKME</button>
+    <h1 id="counter">0</h1>
+    <h2>მეხუთე პასუხი</h2>
+    <button onclick="document.getElementsByTagName('p', 'h2', 'h1')">GREENTEXT</button>
+    <p>sample text</p>
+</body>
+</html>

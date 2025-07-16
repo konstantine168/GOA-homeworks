@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.btn {
+    color: seagreen;
+    background-color: skyblue;
+    border: 3px solid crimson;
+    transition: all 300ms ease;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #3347bb;
+    cursor: pointer;
+}

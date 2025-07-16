@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS SHEJAMEBA</title>
+</head>
+<body onclick="handlechangebgtogreen" id="bg">
+    <marquee scrollamount="150" behavior="scroll" direction="left">
+        <button onclick="alert('OH NO!')">Catch me if you can!</button>
+    </marquee>
+    <script>
+        // send to console:
+        let him = "to be sigma"
+        console.log(him)
+        function handlechangebgtogreen() {
+            let bg = document.getElementById('bg')
+            bg.style.backgroundColor = "green"
+        }
+        function handlechangebgtore() {
+            let bg = document.getElementById('bg')
+            bg.style.backgroundColor = "red"
+        }
+        function handlechangebgtoblue() {
+            let bg = document.getElementById('bg')
+            bg.style.backgroundColor = "blue"
+        }
+    </script>
+</body>
+</html>

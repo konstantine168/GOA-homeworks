@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #179bdc;
+    color: white;
+    font-family: cursive;
+}
+.person {
+    border: 2px solid white;
+    width: 250px;
+}
+button {
+    background-color: #ff0000;
+    border-radius: 5px;
+    border-radius: 2px solid white;
+    font-family: cursive;
+    transition: all 300ms ease;
+}
+button:hover {
+    background-color: #00ff08;
+    cursor: pointer;
+}

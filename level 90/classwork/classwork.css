@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: cursive;
+}
+.box-of-all-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height: 100vh;
+}
+.box {
+    background-color: #064836;
+}
+.box1 {
+    background-color: #064836;
+    width: 1240px;
+    border: 2px solid white;
+}
+.box2 {
+    background-color: #064836;
+    width: 620px;
+    height: 1240px;
+}

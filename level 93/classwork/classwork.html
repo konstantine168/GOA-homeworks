@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Testing</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Playwrite VN", cursive;
+            background-color: black;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgba(12, 255, 241 0.2);
+            border-radius: 5px;
+            border: 2px solid white;
+            position: fixed;
+            width: 100%;
+            left: 0;
+            right: 0;
+        }
+        ul {
+            list-style-type: none;
+        }
+        .margindd {
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        header, ul {
+            display: flex;
+            gap: 20px;
+        }
+        #home video {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            top: -4.2rem;
+            scale: 1.2;
+        }
+    </style>
+</head>
+<body>
+    <header class="margindd">
+    <span>MUSIC</span>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#project">Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <video autoplay muted src="./Eminem - Not Afraid.mp4"></video>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

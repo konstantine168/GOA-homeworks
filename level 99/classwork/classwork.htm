@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let array = [1, 2, 3]
+        array.push('4')
+        array.shift('0')
+        array.unshift()
+        array.pop()
+        let cat = {
+            name: "mew",
+            age: 2,
+            nameAndAge: function () {
+                return [this.name, this.age]
+            }
+        } // object
+        console.log(cat.name)
+        console.log(cat.nameAndAge())
+        console.log(typeof [])
+        console.log(typeof {}) 
+        // 2nd classwork
+        function CarConstructorialGuinea (model, speed, year, color, engine, tires, type, price, motors, lights) {
+            this.model = model 
+            this.speed = speed
+            this.year = year
+            this.color = color
+            this.engine = engine
+            this.tires = tires
+            this.type = type 
+            this.price = price
+            this.motors = motors
+            this.lights = lights
+        }
+        const newCar1 = new CarConstructorialGuinea("Toyota", "427.3mph", "1938", "red", "Eletctrics", "strong", "cool boi", "9999999.99999999₾", "SNAPPIN'", "shiny")
+        const newCar2 = new CarConstructorialGuinea("Toyota", "527.3mph", "2025", "blue", "Eletctrics", "strong", "cool boi", "9999999.99999999$", "INTACT'", "shiny")
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALERY</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #ae4141;
+            columns: white;
+            font-family: cursive;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .grid-box-small {
+            height: 100px;;
+            background-color: #5250d2;
+        }
+        .grid-box-small-down {
+            grid-row-start: 2 span;
+        }
+        .grid-box-small-right {
+            grid-column-start: 2 span;
+        }
+    </style>
+<body>
+    <div class="grid-container">
+        <div class="grid-box-small"></div>
+        <div class="grid-box-small"></div>
+        <div class="grid-box-small-down"></div>
+        <div class="grid-box-small"></div>
+        <div class="grid-box-small"></div>
+        <div class="grid-box-small"></div>
+        <div class="grid-box-small"></div>
+        <div class="grid-box-small"></div>
+        <div class="grid-box-small-right"></div>
+    </div>
+</body>
+</html>
