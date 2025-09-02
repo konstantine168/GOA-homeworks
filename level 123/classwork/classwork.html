@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS arrays web testing</title>
+</head>
+<body>
+    <div id="lomi"></div>
+    <script>
+        // Classwork:
+        const array = ["zerothVariable", "firsthVariable", "secondthVariable", "thirdVariable", "fourthVariable"]
+        array.forEach((item, index) => {
+            console.log(item, index)
+        })
+        const data = new Date();
+        console.log(data)
+        // ----------- //
+        setInterval(() => {
+           const data = new Date();
+           const second = data.getSeconds()
+           const minute = data.getMinutes()
+           const hour = data.getHours()
+           lomi.innerText = `hour ${hour}: minute ${minute}: second: ${second}`
+        }, 1000);
+    </script>
+</body>
+</html>
