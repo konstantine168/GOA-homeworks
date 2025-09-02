@@ -5,3 +5,6 @@ class BookClass{
         this.author = author
     }
 }
+function handleOutput() {
+    
+}
