@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Grid Testing</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
+</head>
+<body>
+    <!-- <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 2xl:grid-cols-10 gap-3 container mx-auto flex justify-center items-center">
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+        <div class="w-full h-30 bg-purple-500"></div>
+    </div> -->
+     <div class="bg-gray-600 rounded-2xl h-100 w-100">
+        <img class="rounded-2xl h-40 w-40" src="data:image/webp;base64,UklGRiYOAABXRUJQVlA4IBoOAADwUwCdASpCAbUAPp1GnkyloyKwpZBqYhATiWduvd6VHs4pjoa1zbkF5V7lZ0MNxllrPZ5XvzPlfRPITL8Iorf5Ca8K0I57Ac7o6us9qA1On07VnfvohPo1/kZtYilN5UmWWYCXgKBYk8BUPpkfzWeQlKOJbDGeQ/5BbcWPuX7Afsur/hODqh93VqXwXDsTAmpShQ6oN/qwUWB1Oa7+d/hCiGil++PW4Vz/0AdRkTwrsmn9d35ZGWJHZHoi9A52LXAYpBqnWEdkW9ZW3mfTUBZ8ehyJBveZkNyl0rXM62T/v2DIrumazvm+ytZSwEVahpdM00ZkxPxLqWptg/UHWiNMZlU0gOFr8EfoRH79YHbw3OxqANdQk0FslJ+lHRmYbd7XNsDptI0zmnR/iN/YtyETscQN4k0u/YI2EOd+Q+CWjuSTiowQGUo8aYy2ieUHU6mthPlPiWUfElng1LHIGiiaJVnoGpyYbO7As0JXWV9gPrVN3t/RgxLkQafk33YA5gd/Oy8Sta/PoMR7Kq9p7Q8veJkxBTlz+8uj3zBNxeDPjEbPTeO22TERZkgdOh+lm1mGXLD3KaeRg8+4RCrClzcenl8YrPr7WMJyvmVPe+zt2XpxXreIOUL9AVQATO1xhCcqKMNfvH8jru4s46YqXA+BhjoUdWK3rBwDU44Umx8D+Y+5RElsbWTRiVO5piH5O0GD5IUJ/8BtceOsNdpENrPpuFQsQ9ZL4YvSUGreSYjKnp8NtHCfpKzoR8bgRR0hnsFY+5OO/XONcP3TlWqmhHS3f0SL0dSvUprAmYt0UY9S+STFIrkcbkM6kDn/MSXVl5QKj9seLH9dWs4eCOnupEYPBYPATqfUqyLgJ07FPezGXISmDvmxj95vpC7hcKcZl0v3Ujp52FOu0AD+z1TfEMp+1iN4WIS5aGSPZNXMvfXsqSQ4c6SvMfFgzcjLGmgApUhxMNaer+gbLuBpi8228RsaRR4TgMnCOv31xcPR18fD/0grE6J0ERti9fSVJrrXGcgdmWn8ftp0p/l9vyJcvxXR5S2n3GZj5gU6+9bRYc5qx3O6hOPKgxWH+bdWV6KoP2PYtd6ypa6yqV8KjbRAyZpVtXI/PxoiiPLJVJl904QzBfBqCcYwn4iykrK6aWBjHse/fGcdNuzZigBsyEe6elwITdSOJROtc7DnHDkHK3onfXIZ5vupx3XD3ogHb+eWBhlKZI7aH895nPAz6rB3q9z/A75F/eb+yp4iiUeIAvr5SC7UmfwxECzx4bkDO2WEtXcM9lzyYGuqt0lLCv6QqkCH1fPYFWwjxRloJANmCEWClW2mPOQL2f1JwkRrqbjlNYvtrg5nZ6dKDR7cTCrsBB3hkup0odMwKf7vDqSMdfMEr6SXheXd+f9JWu0Cj4sBjDeDoQOEeOkc78xlSjYgd4XOCrdkjqavdNJ/9giPL+u6RO6GDciSNe0Up0cgjNZ/SN0iOuSf2fX2NIal29iPovW8l/QFLjyXBwNTgsgkvCaEsOUIVpBTMf5zDfAVrLuIagljw625B3taNERIUCvFNg5HTxbt6W/9WbJIwIyRSKn4V9ApshS7lTILl1QUdoYyt9+fs/2Sf2vDs3rE+bpUFKyyFroFHYOMSbVirtnLlKNiYAOarQLjYZb++uDBaTQ5YTnLzMtQ4nmiCpStVnGAXt+G5wVbenD3GS9ybFc9IWO3tYsE4WA7ZExv4uyzmoEj0emT/y41zG5Dc+Nt6ktETvTcn6aLrH4z8BH/fSoS5LDjKEN6GIONpmPV9Z3zYJ1IPUKep3WZs7P+dHvGMy9RjQ7M2pa0jGQr+ZmwJp6YopyEYZ0HnnVoGhtXq3+Z1DIQp9oU+yb5xZM9o8z3rfBZumc9yFBbsn8g+qAZkXcmbuPP2KaeENRVyBWIVoIJ3Azo++wBw872E6T1XtpRFzEJMxpH0qtfCMJguQBi6AFUvwESwWJMcEUdNn0f539Q+fsOsCIzdN1d9EXZvbeW5zVLZAZFLs+iujXz28efvibf/97hvdDXqzR2zcTFqRfjsNWVj0hWfhogcqnv65HytdvyvF7XhApXrf/LcwdGH2ltwALDuikx4lRNqjaVkt8Re+zBs5O0b7Icn+al6zL+FXepojnZBQ2NdGXP9Nb2DpAxQ5oFssM36G53MNQjmIa3OUFgQf+9EcEOIrv6eI9q0RYi1d3kNABUGOKwUtpa2QWTfkn7tlKvRVMwOMYlyoGlVcogxrbsZxzA4eA3/NLU3q/mMQwgDiBL9gaJyYrwlx40pGWMkdGXSCqqSUFdwcqlHn0Tl8WAkzpZnp2QRBtjGTULGQ17cuLqfcGNwtA6pS0JWRqq28ZyZtecbRMCjTsi8gyvZMr70qJW5umR620+vBoN8AunYHgR/R+ySj14kf61ZemwmSw7xWqYFVKmuGlzrP73PHMvKp+nMBYqj78HSzWDfYe2KX3mGu4p+qpAzs06YkEwbXirhEkqhsX1y5T/HQnOnD3LUx+xgRKDZnU5JRLPt0iZdRHLo09cIsKhG1EmuK7EkD41VvMXo6cWzSmQbXrAN0uW/MT2i3g01uY1OoT/bf3ZTYPUBeW862I7d9wNwO9emtqWrP8GunMWylsr7txG+4njeauab4lgqx6PyWyh2vnXG9W5xGyS6mfX2Y3cxl0EWvgDz/vW91eddYXrffej7vuP8esmg3vsm21o7zvO+Cj3M5EIv3HxjFkvt0t1jxaBcU0vRvxo3fQvA58dFiZd7bh2Qvk37B7DX5z4Tykjk4XCQ8qT+CJosd83TPbt4wp0j6xh+vZlhEfL4p4RzaPRwYEUpubovisAHUvNzmAEMvape4laLgtc7zY/4cUvsap3NT0C4vaev1T2pNA7P0HmIr6QgNg916otB+qwY8JvJT1D1GFjpRTopGsGAE+nS39EnZUu6qPxwhSRSHVFPEb2H4bsaBj4a0hfFo5HVvu7MGag9NkH3BgNKRzzNfzJNpdcButnfxubBmjlpUE2NkE9g+Q65lKBAY0XMy6TNBzhhpMf7ADV9klj02lUoKGOeceXQ8JEENiQiW0gBPMTymFWgTyUo+NEPdt7JGoxGIOTomjIOlHUyvSc4Ais2Herjg9g+i8lRcW83gOUGXS+XESCCyRbUqwGZKnGaAP1y1xvbek9jkd1qUFdxe2tlEGcd+McmXBz/PktYCiYJ3V4KZd4+2674Kt1zLtVzcC+yeGf0IZN4r1rF5EbFd428U2+aS9wYFUegqAMSrHPDKwqAKvcB4oNghvl4xPeIUUStYbaUut8nYhGAvifPbzmGYI3uGpJWdwWip29Hie+qCTDIkxv2tYX+zvqiSzDN6sUXqkVPbKDNDv00oapIXq5TGbs07XMhgS34I0BzX8/YjpW+VTJSR5pF2LMRWN5viwSEouszG3q0NgoH/ZOjheaDVl2jVDKsbHvZmUt4oOPOapEFzAExCljhGNVnt4gtV1oosYSAmARdvMNdMe7chpzjHOrKFh8cxYKA5qOyXJkA80Vpw7kURKTpzVDRNeUGg6CV8QvIYxQyjcs4utBD+mFaMs86VGfVcTf5dNNauBi1s0WUNjXYYlsoggDWlhf1G3QxGTYMnzQghJmtZKRGo0n0jWUh9LSHbjAQ3TxhkQztuEy3JeI83KKKo4UrfFeDqCrqzxJ3uNRO81Vm0u3UXMShF5F7HmQSIe6eIoTgeSqcnkILAlWDF3kHtZ4p/7s56yWUI9l6lv6P1rfKAYzNizknl8L/ONoQUIo4ogNbMjmjhvP0K51QlyJ/PoJEFcIwXnIT8Q+KGCQPE4mugnagJW5hLw6rVxc4BqpaD+uYULw2CK4MwJR/eVqiWMlLHOKaYxdPWyPo2GbcStzj4NFUqFwIMNkDA0g/S2EkiCRBBneECK91DEdAT4+bEsHuBevfHO1qlw9iWo1cpgzJ/WA/73VzrufQ0OM/oCLrNOP4zs9V3+LCwdQQws4dXesEknHLfqxwdHgrw4Mi+1Pj4HD1pS1MIalpZ4vfj4Wavq4PEHv1XnCiNvjDrtvcaVj/AUE8P3IK3/Tp5AYiF/aGiemBB97rsqLiZGm17hvTaWl+URSps4soR2oRMeATKVOtXz5tQJxkCR5x7tjSyBhmthFCLZea+odqYeTO1yh9ZVVMiT0SEpUP3YrV1afwKgdyYzJBirgNIK58KLEeoA9wVPsaqPAsWZ/f/J3sjn7T0I3Es5gmL1WscJne8+6dg+CW4MvYKH6NPozV6faY474shR0VAr0SDbh3LfwLUXTe17vFaiLqB5Qq7kt0qLlj4ZtopuRJbhrhPLNYF0+liS0m+CToINlAGm1A1JcM3NBgs/5puKXKF//5xzdev8sCKi8cuNCOqhi0SRMf5k9noVwWCIEb1JicWE1Lz8L8MLBIh18KCXmv09QY6kaOcMpko2lk3ZPjpD0bFx3fAk/425rRbPD7dY05ujKIFyV1iZxX272W6gohssd0XxcI/6ZYTjYhZS1A4dbya1U+iGA/4wjU+spXTPIChYBUXH2gi2Ij/j8IhTnQSDKXGOFghbEDN+EWk8yqjK8TVwnFdJ5gfAVsyA2RRLy7z1ZIwUUXbJfeMN2N0oGjTryBx8eqKyCfepU8LDVeFLyPRhn6c2/eCHusCGlgiKM/+X955vM68evHV1O4usvZCiOweaSzx/Sbfb4Sd4K1cUtPbPOP9Lf8Rp6X+b5IjSD5Jw83lbIXoGPt8OF3mRa16yTfsyOyxODgiDHPfMF3RFJDUFHK7x3Bs1JSHYkqlx1s2/1kGxgyz8ITwBNg5vT2MoJvWJQ/T5FAGwV/otAAAAA" alt="OM NOOOOM">
+        <h1>The Team was very supportive and<br> kept me motivated</h1>
+        <br>
+        <p class="text-gray-100">
+            OM NOM NOM NOM NOM NOM<br>
+            OM NOM NOM NOM NOM<br>
+            OM NOM NOM NOM NOM NOM<br>
+            OM NOM
+        </p>
+     </div>
+</body>
+</html>
