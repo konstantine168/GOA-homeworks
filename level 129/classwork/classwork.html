@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function step1() { // first the STAK goes over the code (next step: L19)
+            return "step1"
+        }
+        function step2() { // same for this one basically the code is checked (next step: L20)
+            return "step2"
+        }
+        function step3() { // for the 3RD function !!!IT'S ALREADY READ!!! it just isn't called to the console.
+            return "step3"
+        }
+        console.log(step1()) // next the console.log() <--- is sent over to the console after the (L10 Code is read!)
+        console.log(step2()) // after the code is checked it gets sent over to the console
+        // --- //
+        function asyncFunc() { // Function creation syntax
+            setTimeout(() => { // making a timeout (for mesuring) AKA to support create the time function
+                return "lomi" // return a specific string to later on use in the console case
+            }, 1000); // setting the time amount (in this case 1 second cuz of 1,000)
+        } // ending of main function
+        // duration 1 sec
+        function asyncFunc() { // function assignment syntax
+            setTimeout(() => { // setting timeout (once again) to support the function making proccess
+                return "lomi" // returning specific variable/string type of element
+            }, 2000); // setting interval of 2 seconds (2,000) just like the last one but with 2 seconds
+        } // function ending syntax placement
+        // duration 2 sec
+        console.log(asyncFunc2()) // running function (in this case "async function 2")
+        console.log(asyncFunc()) // running the second "asyncFunc" AKA asyncFunc 1
+        console.log(step1()) // running the step 1 from the other segment of the code
+        console.log(step2()) // running the step 2 function from the older segment (first classwork code)
+    </script>
+</body>
+</html>

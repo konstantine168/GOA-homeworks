@@ -1,0 +1,12 @@
+button {
+    background-image: linear-gradient(crimson, orange);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: all 300ms ease;
+    padding: 5px;
+}
+button:active {
+    background-image: linear-gradient(orange, white);
+    color: crimson;
+}

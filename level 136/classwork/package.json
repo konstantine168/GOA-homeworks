@@ -1,0 +1,22 @@
+{
+  "name": "goa-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konstantine168/GOA-homeworks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konstantine168/GOA-homeworks/issues"
+  },
+  "homepage": "https://github.com/konstantine168/GOA-homeworks#readme",
+  "type":"module"
+}

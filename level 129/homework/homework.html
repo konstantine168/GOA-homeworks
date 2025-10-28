@@ -1,0 +1,31 @@
+<script>
+    // 1
+    function returnSomething() {
+        return "returning specific pice of code to the console"
+    }
+    function asyncFunc() {
+        setTimeout(() => {
+            return "returning specific piece of code to the console"
+        }, 1000);
+    }
+    // 2
+    arr = [1,2,3]
+    arr.forEach(arr => {
+        console.log(arr)
+    });
+    // 3
+    arr = [1, 3, 6]
+    arr.Map(arr => { // I think the "Map" method should have a different syntax
+        console.log(arr * 2) // such as a different way to send code to the console
+    }) // like a similar / different approach over to the "Map" method
+    // 4
+    words = ["Pineapple", "Target", "array inside thingy", "kiwi", "one", "um", "wo-"];
+    longwordsfunction = words.filter(word => word.length > 4); // filteres out specific elements for specific curcumstances
+    console.log(longwordsfunction);
+    // 5
+    function multiplicationDelay(variable) {
+        setTimeout(() => {
+            return variable * 2
+        }, 1000);
+    }
+</script>
