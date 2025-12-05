@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+button {
+  border: 2px solid black;
+  background-image: linear-gradient(90deg, green, yellowgreen);
+  color: white;
+  font-family: cursive;
+  transition: all 300ms ease-in;
+}
+button:hover {
+  color: black;
+  transform: scale(1.1);
+}
+button:active {
+  color: green;
+  background-image: linear-gradient(yellowgreen, green);
+}
+.TxtAsDiv {
+  color: white;
+  font-family: cursive;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(yellowgreen, green);
+  transition: all 300ms ease;
+}
+.TxtAsDiv:hover {
+  color: black;
+  background-image: linear-gradient(yellowgreen, green);
+  transform: scale(1.1);
+  border: 2px solid lightseagreen;
+}
+.button1 {
+  margin-right: 10px;
+}
+.button2 {
+  margin-right: 10px;
+}
+.button3 {
+  margin-right: 10px;
+}
