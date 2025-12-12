@@ -1,0 +1,13 @@
+button {
+    background-color: crimson;
+    color: white;
+    font-family: cursive;
+    transition: 300ms ease-in;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+button:hover {
+    background-color: white;
+    color: crimson;
+    transform: scaleX(1.1);
+}

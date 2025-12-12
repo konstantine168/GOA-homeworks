@@ -1,11 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-// ანუ, მე ფუნქციის შიგნით ვაკეთებ კიდევ ერთ ფუნქციას.
-// მერე მაგ ფუნქციას ვუმატებ UseState-ს ეს Usestate-ი
-// True-ს ან False-ის არჩევანს გვაძლევს ჩვენ თუ დავაჭერთ
-// True-ს მაშინ ვებსაიტში გამოჩნდება {კოდი} False-ში კი პირიქით.
 export default function App() {
+  {/* 1) */}
   const [loshorsinisview, setloshorsinis] = useState(true)
+  const [laView, setLa] = useState(true)
   function handleTrueVar() {
     setloshorsinis(true)
   }
@@ -14,12 +12,15 @@ export default function App() {
   }
   return (
     <>
+    <button onClick={}>Backround Color Change</button>
     <button onClick={handleTrueVar}>True</button>
     <button onClick={handleFalseVar}>False</button>
-      <div>
+      <div id='thing'>
         {loshorsinisview ? <button>
           This is a test website made by Konstantine Papava!
         </button> : null}
+        {/* 2) */}
+
       </div> 
     </>
   )
